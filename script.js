@@ -7,6 +7,7 @@ let twitterBtn = document.querySelector(".twitter");
 let synth = speechSynthesis;
 randomQuote();
 
+
 function randomQuote(){
     quoteBtn.classList.add("loading");
     quoteBtn.textContent = "Loading...";
